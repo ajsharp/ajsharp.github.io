@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Alex Sharp. Build, iterate, ship. Rinse, repeat.">
+    <script type="text/javascript" src="//use.typekit.net/fsb3slq.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <link href="/master.css" media="screen" rel="stylesheet" type="text/css" />
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <div id="left">
+      <div id="short-bio tk-facitweb">
+        <p class="tk-facitweb" style="font-weight: 800">Alex Sharp</p>
+
+        <div class="skills tk-facitweb">
+          <p>Engineer</p>
+          <p>Entertainer</p>
+          <p>Laugher</p>
+          <p>Writer</p>
+          <p>Amateur Designer</p>
+          <p>&nbsp;</p>
+        </div>
+
+        <p class="tk-facitweb">I work at <a href="https://www.zaarly.com">Zaarly</a>.</p>
+        <p></p>
+
+        <p class="tk-facitweb">
+          Find me on
+          <a href="https://www.twitter.com/ajsharp">Twitter</a> and
+          <a href="https://www.github.com/ajsharp">Github</a>.
+        </p>
+      </div>
+    </div>
+
+    <div id="heading">
+      <h1 class="tk-facitweb">Alex Sharp</h1>
+      <h2 class="tk-facitweb">Build, iterate, ship. Rinse, repeat.</h2>
+      <!-- <h3 class="tk-facitweb">The rest is just noise.</h3></a> -->
+    </div>
+
+    <div id="center">
+      <div id="center-content">
+        <div id="posts">
+          {{ content }}
+        </div>
+      </div>
+
+      <div id="nfooter">
+        <div id="legal">
+          Content copyright &copy; 2008-{{ site.time | date: "%Y" }} Alex Sharp.
+          </div>
+      </div>
+    </div>
+    
+    {% include ga.html %}
+    {% include gauges.html %}
+  </body>
+</html>

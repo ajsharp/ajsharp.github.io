@@ -1,0 +1,15 @@
+---
+layout: layout
+---
+
+<div class="post">
+  <h2 class="title tk-facitweb">
+    <span class="title">{{ post.title}}</span>
+    <span class="published-at"><%= post.published_at.strftime('%B %e %Y') %></span>
+  </h2>
+
+  <div class="body">
+    {{content}}
+    <%= raw display_body_content(post) %>
+  </div>
+</div>

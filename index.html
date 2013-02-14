@@ -1,0 +1,21 @@
+---
+layout: layout
+title: alexjsharp.com | Alex Sharp | Build, iterate, ship. Rinse, repeat.
+---
+
+{% for post in site.posts %}
+  <div class="post">
+    <h2 class="title tk-facitweb">
+      <span class="title">
+        <a href="{{post.url}}" title="{{post.title}}">{{ post.title }}</a>
+      </span>
+      <span class="published-at">
+        {{post.date | date: "%B %e %Y"}}
+      </span>
+    </h2>
+
+    <div class="body">
+      {{post.content}}
+    </div>
+  </div>
+{% endfor %}
