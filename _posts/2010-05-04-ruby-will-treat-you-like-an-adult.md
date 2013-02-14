@@ -1,3 +1,8 @@
+---
+layout: post
+title: Ruby Will Treat You Like an Adult
+---
+
 One of the things that I love most about Ruby is that it is an "adult's language". It is a very powerful language; as such, it doesn't put many restrictions on what you can do with your objects and classes. 
 
 Most of are familiar with the ability open up and modify any class in Ruby, including what might be referred to in other languages as "primitives". Take the following example:
