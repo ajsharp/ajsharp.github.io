@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building a Refactoring Talk: Part 1
+title: Building a Refactoring Talk - Part 1
 ---
 
 Lately, I've been working on a talk I'm doing on refactoring. I'll be this giving talk at [Ruby Hoedown 2010](http://rubyhoedown.com) in early September in Nashville, TN and at [Sunnyconf](http://sunnyconf.com) in Phoenix, AZ later in the month. 
