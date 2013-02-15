@@ -237,7 +237,7 @@ ul#leftnav li a {
 }
 
 /* posts */
-.post h2.title {
+.post h2.title, .post h1.title {
   margin-bottom: 0px;
   margin-top: 0;
   position: relative;
@@ -245,16 +245,16 @@ ul#leftnav li a {
   line-height: 1.3em;
 }
 
-.post h2.title span.title {
+.post h2.title span.title, .post h1.title span.title {
   max-width: 600px;
   display: inline-block;
 }
 
-.post h2.title a {
+.post h2.title a, .post h1.title a {
   color: inherit;
 }
 
-.post h2.title .published-at {
+.post h2.title .published-at, .post h1.title .published-at {
   position: absolute;
   right: 20px;
   bottom: 0;
