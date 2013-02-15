@@ -335,3 +335,30 @@ ul#presentations {
 #presentations li.presentation {
   list-style: none;
 }
+
+.feedburner-form {
+  padding-top: 22px;
+  display: block;
+  border-top: 1px solid #ccc;
+  margin-left: -19%;
+  padding-left: 19%;
+  margin-top: 43px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.feedburner-form label {
+  display: block;
+  line-height: 1.7em;
+  font-weight: bold;
+}
+
+
+.feedburner-form input.email {
+  width: 178px;
+  line-height: 21px;
+  font-size: 14px;
+  padding-left: 3px;
+  font-weight: normal;
+  border-radius: 0px;
+}
