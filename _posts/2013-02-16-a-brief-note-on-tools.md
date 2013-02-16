@@ -34,7 +34,7 @@ On the whole, sadly, I think we still live in an era of manual drills. Many of u
 
 Obviously, some toolkits are more advanced than others. In my opinion, the iOS SDK and toolkit (xcode, interface builder, etc) are way ahead of the web application development toolkit.
 
-But it's not about IDE vs text editor -- that flame war *entirely* misses the point. It's not about whether we'd rather *write code* in a text editor or an IDE (though, that's certainly part of it). Just like my fence, I wasn't cutting wood for the fun of it, I was *fixing the fence* (again, cutting wood was part of that process). Instaed, we should be focused on which tools make us most effective and efficient at *creating products*.
+But it's not about IDE vs text editor -- that flame war *entirely* misses the point. It's not about whether we'd rather *write code* in a text editor or an IDE (though, that's certainly part of it). Just like my fence, I wasn't cutting wood for the fun of it, I was *fixing the fence* (again, cutting wood was part of that process). Instead, we should be focused on which tools make us most effective and efficient at *creating products*.
 
 Personaly, I hope we're entering [the age of the power drill](http://worrydream.com/#!/InventingOnPrinciple):
 
