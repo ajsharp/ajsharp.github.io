@@ -27,7 +27,7 @@ The question I'd like to pose is: in software engineering tooling, are we in the
 On the whole, I think we're in a manual drill era of software engineering. Many of us still write code with
 [text](http://en.wikipedia.org/wiki/Emacs) <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)" title="Vim">editors</a> that were conceived in the 1970's. In the world's most widely used language, we still have errors like this:
 
-<img src="http://f.cl.ly/items/2n1f1a1a0q3b2z0G1J2C/Image%202013.02.16%202:46:13%20PM.png" width="600" />
+<img src="http://f.cl.ly/items/2n1f1a1a0q3b2z0G1J2C/Image%202013.02.16%202:46:13%20PM.png" width="600" /><br />
 <span style="margin-top: 0;">
   [<a href="https://twitter.com/brentdillingham/status/302908321759903745">source</a>]
 </span>
