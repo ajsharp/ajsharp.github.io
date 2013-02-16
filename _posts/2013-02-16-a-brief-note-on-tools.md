@@ -25,11 +25,11 @@ Now, obviously, I have a power drill. But at some point, once the use of my dril
 The question I'd like to pose is: in software engineering tooling, are we in the age of the manual drill, or the power drill?
 
 On the whole, I think we're in a manual drill era of software engineering. Many of us still write code with
-[text](http://en.wikipedia.org/wiki/Emacs) <a href="http://en.wikipedia.org/wiki/Vim_(text_editor)" title="Vim">editors</a> that were conceived in the 1970's. In the world's most widely used language, we still have errors like this:
+[text](http://en.wikipedia.org/wiki/Emacs) <a target="_blank" href="http://en.wikipedia.org/wiki/Vim_(text_editor)" title="Vim">editors</a> that were conceived in the 1970's. In the world's most widely used language, we still have errors like this:
 
 <img src="http://f.cl.ly/items/2n1f1a1a0q3b2z0G1J2C/Image%202013.02.16%202:46:13%20PM.png" width="600" /><br />
 <span style="margin-top: 0;">
-  [<a href="https://twitter.com/brentdillingham/status/302908321759903745">source</a>]
+  [<a target="_blank" href="https://twitter.com/brentdillingham/status/302908321759903745">source</a>]
 </span>
 
 Obviously, some toolkits are more advanced than others. In my opinion, the iOS SDK and toolkit (xcode, interface builder, etc) are lightyears ahead of the web application development toolkit. But it's not about IDE vs text editor -- that flame war *entirely* misses the point. It's not about which whether we'd rather *write code* in a text editor or an IDE (though, that's certainly part of it). Just like my fence, I wasn't cutting wood for the fun of it, I was *fixing the fence* (again, cutting wood was part of that process). We should be focused on which tools make us most effective and efficient at *creating products*.
