@@ -2,7 +2,7 @@
 layout: post
 title: A Brief Note on Tools
 ---
-Lately, I've been doing a lot of home renovation tasks. Hanging cabinet hardware, sanding, cutting and staining wood, hanging lights, and much more. Spending more time building things in the real world has given me a refreshed perspective on the tools we rely on to accomplish things.
+Lately, I've been doing a lot of home renovation tasks. Hanging cabinet hardware, sanding, cutting and staining wood, hanging lights, and much more. Spending more time building things in the real world has refreshed my perspective on the tools we rely on to accomplish things.
 
 Let me provide an example. I've had to make a few modifications to our fence to make sure the dogs don't get out. Through this process, I needed to cut wood -- nothing fancy, just standard cuts of 2x4's. I also needed to drill new holes and remove old screws.
 
