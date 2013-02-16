@@ -12,7 +12,7 @@ The tools required here are, abstractly:
 * A tool that can drill holes in wood
 * A tool that can put screws or nails into wood
 
-To make basic cuts of wood, there are two options, a hand saw, or a power saw. Both will do an adequate job at cutting the wood, but one will require *far more* time and effort than the other (hint: it's the handsaw). Luckily, I picked up a decent powersaw a few months back, so making those cuts will take seconds, not minutes.
+To make basic cuts of wood, there are two options, a hand saw, or a power saw. Both will do an adequate job at cutting the wood, but one will require *far more* time and effort than the other (hint: it's the handsaw). Luckily, I picked up a decent powersaw a few months back, so making those cuts will take seconds, not minutes. And I'll exert almost no effort manually sawing the wood.
 
 Now, drilling holes. Believe it or not, people did drill holes before power drills, and they did it with one of these:
 
