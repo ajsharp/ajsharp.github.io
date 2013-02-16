@@ -18,7 +18,7 @@ Now, drilling holes. Believe it or not, people did drill holes before power dril
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/e/e1/Brace-manual-drill.jpg" width="80%" style="display: block; margin: 0 auto;"/>
 
-Now, obviously, I have a power drill. But at some point, once the use of my drill became second nature, when I had taken it for granted, it hit me: It wasn't so long ago that people *had* to use the manual drill. They had no other tool. Nothing better existed. **It had not yet been invented.**
+Now, obviously, I have a power drill. But at some point, once the use of my drill became second nature, when I had taken it for granted, it hit me: **It wasn't so long ago that people were forced to use the manual drill.** They had no other tool. Nothing better existed. **It had not yet been invented.**
 
 ## We're not really talking about wood, are we?
 
