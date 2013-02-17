@@ -5,6 +5,7 @@ layout: layout
 <div class="post">
   <h1 class="title tk-facitweb">
     <span class="title">{{ page.title }}</span>
+    {% include tweet_button.html %}
     <span class="published-at">{{page.date | date: "%B %e %Y"}}</span>
   </h1>
 

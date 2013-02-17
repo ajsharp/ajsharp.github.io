@@ -363,3 +363,7 @@ ul#presentations {
   font-weight: normal;
   border-radius: 0px;
 }
+
+h1 .twitter-share-button, h2 .twitter-share-button {
+  margin-left: 130px;
+}
