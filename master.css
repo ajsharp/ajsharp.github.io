@@ -116,11 +116,12 @@ ul.speaking li .date {
   border-left: 1px solid #cacaca;
 }
 
-#heading h1 {
+#heading h1, #heading h1 a {
   margin: 0;
   font-size: 72px;
   line-height: 72px;
   color: #000;
+  text-decoration: none;
 }
 
 #heading h2 {
