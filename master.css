@@ -366,5 +366,8 @@ ul#presentations {
 }
 
 h1 .twitter-share-button, h2 .twitter-share-button {
-  margin-left: 130px;
+  padding-top: 11px;
+  position: absolute;
+  right: 50px;
+  top: 40px;
 }
