@@ -1,0 +1,431 @@
+@import "compass";
+@import "compass/css3";
+
+body {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'facitweb', sans-serif;
+	font-size-adjust: none;
+	font-stretch:normal;
+	font-style: normal;
+	font-variant: normal;
+	background: #fff;
+	color: #000;
+	margin: 0;
+}
+
+img a, img	 {
+  border: 0;
+}
+
+$link-blue: #176aa5;
+
+a {
+  color: $link-blue;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.highlight {
+  background: #f7f7f7;
+  padding: 5px 25px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+.gist {
+  font-size: 90%;
+}
+
+ol {
+	font-size: 13px;
+	line-height: 1.3em;
+}
+
+ol, li {
+/*  list-style: none;*/
+}
+
+ul, ol {
+  margin-top: 0;
+  padding-left: 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+ul.speaking {
+  padding-left: 10px;
+}
+
+ul.speaking li {
+  list-style: none;
+  padding: 9px 0;
+}
+
+ul.speaking li:first-child {
+  padding-top: 0;
+}
+
+.speaking li .conference {
+  font-weight: bold;
+}
+
+ul.speaking li .date {
+  display: inline-block;
+  float: right;
+  color: #CCC;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.cv ul {
+  font-size: 14px;
+}
+
+#mwrap {
+  overflow: auto;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#left {
+  position: absolute;
+  width: 23%;
+  padding-left: 3%;
+  min-height: 100%;
+  text-align: left;
+  padding-top: 120px;
+}
+
+#short-bio p {
+  font-family: inherit;
+}
+
+.tk-facitweb a {
+  font-weight: 600;
+}
+
+#heading {
+  position: relative;
+  border-bottom: 1px solid #CACACA;
+  padding: 40px;
+  padding-top: 0;
+  margin-left: 26%;
+  border-left: 1px solid #cacaca;
+}
+
+#heading h1, #heading h1 a {
+  margin: 0;
+  font-size: 72px;
+  line-height: 72px;
+  color: #000;
+  text-decoration: none;
+}
+
+#heading h2 {
+  font-size: 23px;
+  line-height: 23px;
+  color: #ccc;
+  margin-bottom: 0;
+}
+
+#heading h3 {
+  margin-bottom: 0;
+}
+
+#center {
+  height: 100%;
+  position: relative;
+  line-height: 22px;
+  margin-left: 26%;
+  padding-left: 0px;
+  padding-top: 0px;
+  border-left: 1px solid #cacaca;
+}
+
+ul#leftnav {
+  margin: 0;
+}
+
+ul#leftnav li a {
+  display: block;
+  padding: 10px 0;
+  font-weight: 500;
+  font-family: helvetica;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 1200px;
+  min-height: 100%;
+}
+
+#content {
+	width: 745px;
+  margin: 0 auto;
+	padding: 0px 250px 20px 20px;
+}
+
+#footer {
+	background: #000 url(/images/footer-bg.png) repeat-x 0 0;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10px;
+	padding: 15px 0 0 0;
+	color: #808080;
+	clear: both;
+}
+
+#about-me, #featured-projects, #recent-posts {
+  width: 275px;
+  padding: 0 20px;
+  float: left;
+}
+
+#recent-posts {
+  left: 315px;
+}
+
+#featured-projects {
+  left: 630px;
+}
+
+#featured-projects ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#featured-projects ul li.title {
+  color: #F2F2F2;
+  font-size: 12px;
+}
+
+#featured-projects ul li {
+  font-size: 10px;
+}
+
+#footer #legal {
+  clear: both;
+  padding: 20px 0;
+}
+
+#footer #legal p {
+	font-size: 10px;
+	color: #333;
+	text-align: center;
+}
+
+#content p { line-height: 1.6em; }
+
+#content a { color: #3366cc; }
+
+.skills p {
+  font-size: 13px;
+}
+
+.post {
+  padding: 35px 0 20px 40px;
+  padding-right: 10%;
+  border-bottom: 1px solid #ccc;
+}
+
+#posts .post:last-child {
+  border-bottom: 0;
+}
+
+/* posts */
+.post h2.title, .post h1.title {
+  margin-bottom: 0px;
+  margin-top: 0;
+  position: relative;
+  font-size: 36px;
+  line-height: 1.3em;
+}
+
+.post h2.title span.title, .post h1.title span.title {
+  max-width: 600px;
+  display: inline-block;
+}
+
+.post h2.title a, .post h1.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post h2.title .published-at, .post h1.title .published-at {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  font-size: 16px;
+}
+
+.post .body {
+  padding-right: 25%;
+  min-width: 575px;
+  max-width: 650px;
+  line-height: 2.1em;
+  font-size: 15px;
+  color: #000;
+}
+
+.post a {
+  font-weight: 600;
+}
+
+.post .body h3,
+.post .body h2,
+.post .body h1 {
+  color: #000;
+}
+
+.post .body p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.post .body p:first-child {
+  margin-top: 10px;
+}
+
+#content .post h2.title a {
+	color: #993333;
+	font-weight: normal;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 0;
+}
+
+.posted-by {
+	color: #333333;
+	font-size:11px;
+	margin-left: 1px;
+}
+
+/* sidebar */
+
+#sidebar {
+	width: 250px;
+	float:left;
+	padding: 40px 0 0 15px;
+	margin: 0;
+	background: transparent;
+}
+
+#nfooter {
+  clear: both;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.post .tags {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+/* #presentations */
+ul#presentations {
+  padding: 0;
+}
+
+#presentations li.presentation {
+  list-style: none;
+}
+
+.feedburner-form {
+  padding-top: 22px;
+  display: block;
+  border-top: 1px solid #ccc;
+  margin-left: -19%;
+  padding-left: 19%;
+  margin-top: 43px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.feedburner-form label {
+  display: block;
+  line-height: 1.7em;
+  font-weight: bold;
+}
+
+
+.feedburner-form input.email {
+  width: 178px;
+  line-height: 21px;
+  font-size: 14px;
+  padding-left: 3px;
+  font-weight: normal;
+  border-radius: 0px;
+}
+
+h1 .twitter-share-button, h2 .twitter-share-button {
+  padding-top: 11px;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+
+.back-button {
+  position: absolute;
+  top: 0;
+  background: black;
+  color: white;
+  padding: 10px 40px;
+  font-weight: 100;
+  @include border-bottom-left-radius(2px);
+  @include border-bottom-right-radius(2px);
+  
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: #ccc;
+    }
+  }
+}
+
+.social-icons {
+  position: relative;
+//  padding: 8px 0 20px;
+  display: block;
+  height: 17px;
+
+  a {
+    vertical-align: middle;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 2px;
+    @include transition-duration(0.3s);
+
+    &:hover {
+      @include transition-duration(0.3s);
+      color: $link-blue;
+    }
+    &.icon-github {
+      font-size: 18px;
+      color: grey;
+    }
+    &.icon-twitter {
+      color: #4099FF;
+    }
+    &.icon-github:hover {
+      color: $link-blue;
+    }
+    &.icon-twitter:hover {
+      color: $link-blue;
+    }
+  }
+}
