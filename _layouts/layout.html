@@ -7,28 +7,42 @@
 
     <script type="text/javascript" src="//use.typekit.net/fsb3slq.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-    <link href="/css/pygments.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/master.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/css/font-awesome.min.css" rel="stylesheet" />
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+    <!--[if IE]>
+        <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
     <![endif]-->
+    <link href="/css/pygments.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/font-awesome-social.css" rel="stylesheet" />
+    <link href="/css/master.css" media="screen" rel="stylesheet" type="text/css" />
     <title>{{ page.title }}</title>
   </head>
   <body>
     {% include clicktale_top.html %}
 
     <div id="left">
+      {% if page.url != '/index.html' %}
+      <div class="back-button">
+        <a href="/" title="back">
+          <i class="icon-circle-arrow-left"></i>
+          back
+        </a>
+      </div>
+      <script>
+        $(document).ready(function() {
+          $('.back-button').addClass('ready')
+        })
+      </script>
+      {% endif %}
       <div id="short-bio tk-facitweb">
         <p class="tk-facitweb" style="font-weight: 800">Alex Sharp</p>
 
         <div class="skills tk-facitweb">
-          <p>Engineer</p>
-          <p>Entertainer</p>
-          <p>Laugher</p>
-          <p>Writer</p>
-          <p>Amateur Designer</p>
+          <p>engineer</p>
+          <p>designer</p>
+          <p>cook</p>
           <p>&nbsp;</p>
         </div>
 
@@ -37,8 +51,8 @@
 
         <p class="tk-facitweb">
           Find me on
-          <a href="https://www.twitter.com/ajsharp">Twitter</a> and
-          <a href="https://www.github.com/ajsharp">Github</a>.
+          <a href="https://www.twitter.com/ajsharp" title="Alex Sharp (@ajsharp)" target="_blank">Twitter</a> and
+          <a href="https://www.github.com/ajsharp" title="Alex Sharp (@ajsharp)" target="_blank">Github</a>.
         </p>
 
         {% include feedburner_email_form.html %}
@@ -47,8 +61,16 @@
 
     <div id="heading">
       <h1 class="tk-facitweb"><a href="/">Alex Sharp</a></h1>
-      <h2 class="tk-facitweb">Build, iterate, ship. Rinse, repeat.</h2>
-      <!-- <h3 class="tk-facitweb">The rest is just noise.</h3></a> -->
+      <div class="avatar">
+        <img src="http://www.gravatar.com/avatar/e4f80e42794094c98a40bfebef4ec292.png" class="avatar" alt="Alex Sharp" />
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/ajsharp" title="Alex Sharp (@ajsharp)" target="_blank" class="icon-github"></a>
+        <a href="https://twitter.com/ajsharp" class="icon-twitter" title="Alex Sharp (@ajsharp)" target="_blank"></a>
+        <a href="http://dribbble.com/ajsharp" class="icon-dribbble" title="Alex Sharp (@ajsharp)" target="_blank"></a>
+        <span class="skills">engineer / designer / cook</span>
+      </div>
     </div>
 
     <div id="center">

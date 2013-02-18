@@ -120,10 +120,16 @@ ul.speaking li .date {
   padding-top: 0;
   margin-left: 26%;
   border-left: 1px solid #cacaca;
+
+  .skills {
+    color: #ccc;
+    font-weight: 100;
+  }
 }
 
 #heading h1, #heading h1 a {
   margin: 0;
+  padding: 20px 0 0;
   font-size: 72px;
   line-height: 72px;
   color: #000;
@@ -329,6 +335,13 @@ ul#leftnav li a {
   font-weight: 600;
 }
 
+.post {
+  img {
+    border: 1px solid rgb(122, 122, 122);
+    @include border-radius(1px);
+  }
+}
+
 .post .tags {
   font-size: 0.8em;
   font-style: italic;
@@ -380,9 +393,10 @@ h1 .twitter-share-button, h2 .twitter-share-button {
 .back-button {
   position: absolute;
   top: 0;
+  top: -200px;
   background: black;
   color: white;
-  padding: 10px 40px;
+  padding: 15px 40px;
   font-weight: 100;
   @include border-bottom-left-radius(2px);
   @include border-bottom-right-radius(2px);
@@ -394,11 +408,16 @@ h1 .twitter-share-button, h2 .twitter-share-button {
       color: #ccc;
     }
   }
+
+  &.ready {
+    @include transition-duration(1s);
+    @include transition-timing-function(ease);
+    top: 0;
+  }
 }
 
 .social-icons {
   position: relative;
-//  padding: 8px 0 20px;
   display: block;
   height: 17px;
 
@@ -416,16 +435,31 @@ h1 .twitter-share-button, h2 .twitter-share-button {
     }
     &.icon-github {
       font-size: 18px;
-      color: grey;
+      color: black;
     }
     &.icon-twitter {
       color: #4099FF;
     }
+    &.icon-dribbble {
+      color: #ea4c89;
+    }
     &.icon-github:hover {
-      color: $link-blue;
+      color: grey;
     }
     &.icon-twitter:hover {
       color: $link-blue;
     }
+    &.icon-dribbble:hover {
+      color: #ac2d5d;
+    }
   }
+}
+
+.avatar img {
+  width: 60px;
+  @include border-radius(100px);
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  @include box-shadow(0 1px 0 black);
 }
