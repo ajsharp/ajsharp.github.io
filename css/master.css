@@ -468,17 +468,15 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   -moz-border-radius-bottomright: 2px;
   -webkit-border-bottom-right-radius: 2px;
   border-bottom-right-radius: 2px;
-}
-/* line 404, ../_scss/master.scss */
-.back-button a {
+  display: block;
   color: white;
   text-decoration: none;
 }
 /* line 407, ../_scss/master.scss */
-.back-button a:hover {
+.back-button:hover {
   color: #ccc;
 }
-/* line 412, ../_scss/master.scss */
+/* line 411, ../_scss/master.scss */
 .back-button.ready {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -491,13 +489,13 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   top: 0;
 }
 
-/* line 419, ../_scss/master.scss */
+/* line 418, ../_scss/master.scss */
 .social-icons {
   position: relative;
   display: block;
   height: 17px;
 }
-/* line 424, ../_scss/master.scss */
+/* line 423, ../_scss/master.scss */
 .social-icons a {
   vertical-align: middle;
   color: black;
@@ -509,7 +507,7 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 432, ../_scss/master.scss */
+/* line 431, ../_scss/master.scss */
 .social-icons a:hover {
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
@@ -517,33 +515,33 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   transition-duration: 0.3s;
   color: #176aa5;
 }
-/* line 436, ../_scss/master.scss */
+/* line 435, ../_scss/master.scss */
 .social-icons a.icon-github {
   font-size: 18px;
   color: black;
 }
-/* line 440, ../_scss/master.scss */
+/* line 439, ../_scss/master.scss */
 .social-icons a.icon-twitter {
   color: #4099FF;
 }
-/* line 443, ../_scss/master.scss */
+/* line 442, ../_scss/master.scss */
 .social-icons a.icon-dribbble {
   color: #ea4c89;
 }
-/* line 446, ../_scss/master.scss */
+/* line 445, ../_scss/master.scss */
 .social-icons a.icon-github:hover {
   color: grey;
 }
-/* line 449, ../_scss/master.scss */
+/* line 448, ../_scss/master.scss */
 .social-icons a.icon-twitter:hover {
   color: #176aa5;
 }
-/* line 452, ../_scss/master.scss */
+/* line 451, ../_scss/master.scss */
 .social-icons a.icon-dribbble:hover {
   color: #ac2d5d;
 }
 
-/* line 458, ../_scss/master.scss */
+/* line 457, ../_scss/master.scss */
 .avatar img {
   width: 60px;
   -webkit-border-radius: 100px;

@@ -24,12 +24,10 @@
 
     <div id="left">
       {% if page.url != '/index.html' %}
-      <div class="back-button">
-        <a href="/" title="back">
-          <i class="icon-circle-arrow-left"></i>
-          back
-        </a>
-      </div>
+      <a href="/" title="back" class="back-button">
+        <i class="icon-circle-arrow-left"></i>
+        back
+      </a>
       <script>
         $(document).ready(function() {
           $('.back-button').addClass('ready')

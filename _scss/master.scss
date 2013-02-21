@@ -400,13 +400,12 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   font-weight: 100;
   @include border-bottom-left-radius(2px);
   @include border-bottom-right-radius(2px);
-  
-  a {
-    color: white;
-    text-decoration: none;
-    &:hover {
-      color: #ccc;
-    }
+  display: block;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: #ccc;
   }
 
   &.ready {
