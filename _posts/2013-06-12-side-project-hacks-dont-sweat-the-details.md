@@ -3,7 +3,9 @@ layout: post
 title: "Side Project Hacks: Don't Sweat the Details"
 ---
 
-## *Conserve momentum. Don't sweat the details. Focus on Shipping.*
+### *Conserve momentum. Don't sweat the details. Focus on Shipping.*
+
+*Note: This is a cross-post from [Medium](https://medium.com/what-i-learned-today/c1b68e3af73a).*
 
 Lately, I’ve been spending a lot of my nights and weekends working on a side project called [Octocall](https://octocall.com), a service to simplify meetings and conference calls for businesses.
 
