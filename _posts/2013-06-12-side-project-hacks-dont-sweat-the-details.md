@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Side Project Hacks: Don't Sweat the Details
+title: "Side Project Hacks: Don't Sweat the Details"
 ---
 
 ## *Conserve momentum. Don't sweat the details. Focus on Shipping.*

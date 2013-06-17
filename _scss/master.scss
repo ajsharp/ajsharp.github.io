@@ -14,7 +14,7 @@ body {
 	margin: 0;
 }
 
-img a, img	 {
+img a, img {
   border: 0;
 }
 
@@ -265,6 +265,10 @@ ul#leftnav li a {
 .post h2.title a, .post h1.title a {
   color: inherit;
   text-decoration: none;
+}
+
+.post h2.title span a {
+  font-weight: bold;
 }
 
 .post h2.title .published-at, .post h1.title .published-at {

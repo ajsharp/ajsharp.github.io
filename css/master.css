@@ -2,7 +2,7 @@
 body {
   font-size: 16px;
   font-weight: 300;
-  font-family: "facitweb", sans-serif;
+  font-family: 'facitweb', sans-serif;
   font-size-adjust: none;
   font-stretch: normal;
   font-style: normal;
@@ -31,7 +31,7 @@ blockquote {
 .highlight {
   background: #f7f7f7;
   padding: 5px 25px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   overflow: auto;
   width: 100%;
   line-height: 1.5em;
@@ -131,7 +131,7 @@ ul.speaking li .date {
 /* line 116, ../_scss/master.scss */
 #heading {
   position: relative;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid #CACACA;
   padding: 40px;
   padding-top: 0;
   margin-left: 26%;
@@ -282,7 +282,7 @@ ul#leftnav li a {
 .post {
   padding: 35px 0 20px 40px;
   padding-right: 10%;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
 }
 
 /* line 247, ../_scss/master.scss */
@@ -313,6 +313,11 @@ ul#leftnav li a {
 }
 
 /* line 270, ../_scss/master.scss */
+.post h2.title span a {
+  font-weight: bold;
+}
+
+/* line 274, ../_scss/master.scss */
 .post h2.title .published-at, .post h1.title .published-at {
   position: absolute;
   right: 20px;
@@ -320,7 +325,7 @@ ul#leftnav li a {
   font-size: 16px;
 }
 
-/* line 277, ../_scss/master.scss */
+/* line 281, ../_scss/master.scss */
 .post .body {
   padding-right: 25%;
   min-width: 575px;
@@ -330,30 +335,30 @@ ul#leftnav li a {
   color: #000;
 }
 
-/* line 286, ../_scss/master.scss */
+/* line 290, ../_scss/master.scss */
 .post a {
   font-weight: 600;
 }
 
-/* line 292, ../_scss/master.scss */
+/* line 296, ../_scss/master.scss */
 .post .body h3,
 .post .body h2,
 .post .body h1 {
   color: #000;
 }
 
-/* line 296, ../_scss/master.scss */
+/* line 300, ../_scss/master.scss */
 .post .body p {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-/* line 301, ../_scss/master.scss */
+/* line 305, ../_scss/master.scss */
 .post .body p:first-child {
   margin-top: 10px;
 }
 
-/* line 305, ../_scss/master.scss */
+/* line 309, ../_scss/master.scss */
 #content .post h2.title a {
   color: #993333;
   font-weight: normal;
@@ -362,7 +367,7 @@ ul#leftnav li a {
   margin-top: 0;
 }
 
-/* line 313, ../_scss/master.scss */
+/* line 317, ../_scss/master.scss */
 .posted-by {
   color: #333333;
   font-size: 11px;
@@ -370,7 +375,7 @@ ul#leftnav li a {
 }
 
 /* sidebar */
-/* line 321, ../_scss/master.scss */
+/* line 325, ../_scss/master.scss */
 #sidebar {
   width: 250px;
   float: left;
@@ -379,7 +384,7 @@ ul#leftnav li a {
   background: transparent;
 }
 
-/* line 329, ../_scss/master.scss */
+/* line 333, ../_scss/master.scss */
 #nfooter {
   clear: both;
   text-align: center;
@@ -389,7 +394,7 @@ ul#leftnav li a {
   font-weight: 600;
 }
 
-/* line 339, ../_scss/master.scss */
+/* line 343, ../_scss/master.scss */
 .post img {
   border: 1px solid #7a7a7a;
   -webkit-border-radius: 1px;
@@ -399,28 +404,28 @@ ul#leftnav li a {
   border-radius: 1px;
 }
 
-/* line 345, ../_scss/master.scss */
+/* line 349, ../_scss/master.scss */
 .post .tags {
   font-size: 0.8em;
   font-style: italic;
 }
 
 /* #presentations */
-/* line 351, ../_scss/master.scss */
+/* line 355, ../_scss/master.scss */
 ul#presentations {
   padding: 0;
 }
 
-/* line 355, ../_scss/master.scss */
+/* line 359, ../_scss/master.scss */
 #presentations li.presentation {
   list-style: none;
 }
 
-/* line 359, ../_scss/master.scss */
+/* line 363, ../_scss/master.scss */
 .feedburner-form {
   padding-top: 22px;
   display: block;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   margin-left: -19%;
   padding-left: 19%;
   margin-top: 43px;
@@ -428,14 +433,14 @@ ul#presentations {
   text-align: left;
 }
 
-/* line 370, ../_scss/master.scss */
+/* line 374, ../_scss/master.scss */
 .feedburner-form label {
   display: block;
   line-height: 1.7em;
   font-weight: bold;
 }
 
-/* line 377, ../_scss/master.scss */
+/* line 381, ../_scss/master.scss */
 .feedburner-form input.email {
   width: 178px;
   line-height: 21px;
@@ -445,7 +450,7 @@ ul#presentations {
   border-radius: 0px;
 }
 
-/* line 386, ../_scss/master.scss */
+/* line 390, ../_scss/master.scss */
 h1 .twitter-share-button, h2 .twitter-share-button {
   padding-top: 11px;
   position: absolute;
@@ -453,7 +458,7 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   top: 40px;
 }
 
-/* line 393, ../_scss/master.scss */
+/* line 397, ../_scss/master.scss */
 .back-button {
   position: absolute;
   top: 0;
@@ -472,11 +477,11 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   color: white;
   text-decoration: none;
 }
-/* line 407, ../_scss/master.scss */
+/* line 411, ../_scss/master.scss */
 .back-button:hover {
   color: #ccc;
 }
-/* line 411, ../_scss/master.scss */
+/* line 415, ../_scss/master.scss */
 .back-button.ready {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
@@ -489,13 +494,13 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   top: 0;
 }
 
-/* line 418, ../_scss/master.scss */
+/* line 422, ../_scss/master.scss */
 .social-icons {
   position: relative;
   display: block;
   height: 17px;
 }
-/* line 423, ../_scss/master.scss */
+/* line 427, ../_scss/master.scss */
 .social-icons a {
   vertical-align: middle;
   color: black;
@@ -507,7 +512,7 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 431, ../_scss/master.scss */
+/* line 435, ../_scss/master.scss */
 .social-icons a:hover {
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
@@ -515,33 +520,33 @@ h1 .twitter-share-button, h2 .twitter-share-button {
   transition-duration: 0.3s;
   color: #176aa5;
 }
-/* line 435, ../_scss/master.scss */
+/* line 439, ../_scss/master.scss */
 .social-icons a.icon-github {
   font-size: 18px;
   color: black;
 }
-/* line 439, ../_scss/master.scss */
+/* line 443, ../_scss/master.scss */
 .social-icons a.icon-twitter {
   color: #4099FF;
 }
-/* line 442, ../_scss/master.scss */
+/* line 446, ../_scss/master.scss */
 .social-icons a.icon-dribbble {
   color: #ea4c89;
 }
-/* line 445, ../_scss/master.scss */
+/* line 449, ../_scss/master.scss */
 .social-icons a.icon-github:hover {
   color: grey;
 }
-/* line 448, ../_scss/master.scss */
+/* line 452, ../_scss/master.scss */
 .social-icons a.icon-twitter:hover {
   color: #176aa5;
 }
-/* line 451, ../_scss/master.scss */
+/* line 455, ../_scss/master.scss */
 .social-icons a.icon-dribbble:hover {
   color: #ac2d5d;
 }
 
-/* line 457, ../_scss/master.scss */
+/* line 461, ../_scss/master.scss */
 .avatar img {
   width: 60px;
   -webkit-border-radius: 100px;
